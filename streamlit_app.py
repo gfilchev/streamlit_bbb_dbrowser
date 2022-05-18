@@ -25,7 +25,7 @@ engine = sal.create_engine("mssql+pyodbc:///?odbc_connect={}".format(params),enc
 
 
 
-#STREAMLIT_AGGRID_URL = "https://github.com/PablocFonseca/streamlit-aggrid"
+STREAMLIT_AGGRID_URL = "https://github.com/PablocFonseca/streamlit-aggrid"
 st.set_page_config(
 	layout="wide", page_icon="🖱️", page_title="Интерснак ДБ"
 )
